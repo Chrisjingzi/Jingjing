@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Jingziya~The first one has a page about B4-306
 
 You can use the [editor on GitHub](https://github.com/Chrisjingzi/Jingzi/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
