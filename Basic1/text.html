@@ -1,1 +1,54 @@
+<!DOCTYPE html>
 
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>the beginning of the story</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+        body {
+            background-image: url(./images/0.jpg);
+            background-size: 100% 100%;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        @keyframes first_donghua {
+            /** 改变背景颜色设置
+               from{background:red;}
+               to{background:green;}
+           **/
+            from {
+                opacity: 0
+            }
+
+            to {
+                opacity: 100
+            }
+        }
+        h1 {
+            animation: first_donghua 5s;
+        }
+
+        p {
+            animation: first_donghua 2s infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <audio src="wav/bgm1.mp3" controls="controls" autoplay="autoplay"></audio>
+
+    <h1 style="font-size:2em">
+        A <br />
+        romantic<br />
+        trip<br />
+    </h1>
+    <p style="font-size:2em;color:wheat" align="center">今日有房！</p>
+
+
+</body>
+</html>
